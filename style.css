@@ -459,6 +459,245 @@ textarea {
     color: #13386fe0;
 }
 
-ul{
-    list-style: none;
+
+ul {
+    padding-inline-start: 20px;
+    margin: 10px 0px;
+}
+
+/* CSS for screen size less 950px */
+
+@media only screen and (max-width:750px){
+    #about-para{
+        font-size: 18px;
+        margin: 40px;
+    }
+}
+
+/* CSS for screen size less 450px */
+
+@media only screen and (max-width:950px){
+
+    /* header-background */
+    #body-header{
+        height: 40vh;
+    }
+
+
+    /* header list items */
+    #body-header ul li{
+        font-size: 0.8rem;
+    }
+
+    /* header anchor tag */
+    #body-header ul li a{
+        padding: 0px;
+    }
+
+
+
+    /* header h1 name */
+    #my-name{
+        font-size: 70%;
+        color: white;
+        font-weight: 500;
+    }
+
+    /* social icons */
+    #social-icons li a i{
+        padding: 8px;
+    }
+
+
+    main{
+        padding-top: 40vh;
+    }
+
+    /* about para styles */
+    #about-para{
+        font-size: 13px;
+        margin: 40px;
+    }
+
+
+
+    .section-heading{
+        font-size: 25px;
+        font-weight: 200;
+        padding: 0px;
+    }
+
+    .section-heading span{
+        font-size: 30px;
+    }
+
+    .skills-display{
+        width: 95%;
+    }
+
+    .skill-progress {
+        width: 100px;
+        height: 1.6rem;
+        border-radius: 0.8rem;
+        margin: 10px;
+    }
+
+    .skill-progress > div {
+        border-radius: 0.8rem 0px 0px 0.8rem;
+        text-align: center;
+    }
+
+    .skill-name span {
+        color: white;
+        font-size: 12px;
+        vertical-align: top;
+    }
+
+
+
+
+    /* WORK EXPERIENCE */
+
+    .timeline{
+        width: 100%;
+    }
+
+    .timeline-box{
+        min-height: 100px;
+        margin: 0px 2px;
+    }
+
+
+
+    .work-img{
+        width: 25%;
+        height: 60px;
+    }
+
+    .work-img>img{
+        height: 50px;
+        width: 80%;
+    }
+
+    .role-name{
+        width: 50%;
+    }
+
+    .role-name h4{
+        color: rgb(110, 29, 185);
+        margin: 10px 0px ;
+        font-size: 15px;
+    }
+
+    .role-name h5{
+        font-size: 12px;
+    }
+
+    .role-name p{
+        font-size: 10px;
+    }
+
+    .timeline-box>p{
+        font-size: 11px;
+    }
+
+    .timeline-box li{
+        font-size: 11px;
+    }
+
+    #timeline-divider {
+        height: 72%;
+    }
+
+
+
+    .imagediv{
+        border-radius: 10px 0px ;
+        padding: 5px;
+        margin:10px ;
+    }
+
+    .portfolio-class img{
+        height: 100px;
+        width: 100px;
+        border-radius: 10px 0px ;
+    }
+    .portfolio-class h6{
+        width: 100%;
+        font-size: 15px;
+    }
+
+        /* Contact Form */
+
+    #contact {
+        padding-bottom: 20px;
+    }
+
+    #contact h1,
+    #contact h1 span {
+        color: white;
+    }
+
+    #contact-form {
+        margin-left: 0%;
+    }
+
+
+    #my-details-container {
+        width: 45%;
+    }
+
+    #my-details-container h3 {
+        font-weight: 350;
+        font-size: 0.8rem;
+    }
+
+    #contact-form-container {
+        width: 40%;
+    }
+
+    #my-details-container p {
+        color: #d9dcdd;
+        font-size: 0.7rem;
+    }
+
+
+
+    .my-details-icon {
+        width: 1rem;
+        height: 1rem;
+        vertical-align: bottom;
+        margin-right: 0.5rem;
+    }
+
+
+    #contact-form input,
+    textarea {
+        padding: 4px;
+        line-height: 1.2;
+        font-size: 0.8rem;
+    }
+
+
+
+    #contact-form button[type="submit"] {
+        font-size: 0.6rem;
+        border: 1px solid white;
+        margin-left: 25%;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    .my-details-info-container i {
+        font-size: medium;
+    }
+    .my-details-info-container span{
+        font-size: 10px;
+        margin: 0%;
+        padding: 0%;
+        line-height: 10px;
+    }
+    .my-details-info-container {
+        margin: 0%;
+    }
 }
